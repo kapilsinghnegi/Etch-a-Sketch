@@ -20,16 +20,28 @@ body {
   background-color: #f0f0f0;
 }
 
-#grid-size-button {
+#buttons {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 8px;
+}
+
+button {
   padding: 5px 10px;
   background-color: #f0f0f0;
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
 }
-#grid-size-button:hover {
+button:hover {
   background-color: #e0e0e0;
+}
+
+button:focus {
+  background-color: #000;
+  color: #fff;
 }
 
 .grid-container {
